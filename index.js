@@ -10,7 +10,7 @@ const BASE_URL = "https://api.notion.com/";
 // query settings
 // need to think about how to adjust it 
 const QUERY_NUM = 3;
-const QUERY_KEYS = ['Title', 'Text', 'Number'];
+const QUERY_KEYS = ['Title', 'Text', 'Created'];
 
 (async () => {
   // Query
@@ -19,12 +19,12 @@ const QUERY_KEYS = ['Title', 'Text', 'Number'];
   // set notion API integration auth header
   let headers = {
     Authorization: `Bearer ${TOKEN}`,
-    "Notion-Version": "2022-06-28",
+    "Notion-Version": "2022-02-22",
     "Content-Type": "application/json"
   };
 
   let sorts = [{
-    "property": "Text",
+    "property": "Created",
     "direction": "descending"
   }]
 

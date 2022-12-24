@@ -10,7 +10,7 @@ const BASE_URL = "https://api.notion.com/";
 // query settings
 // need to think about how to adjust it 
 const QUERY_NUM = 3;
-const QUERY_KEYS = ['Name', 'Text', 'Created'];
+const QUERY_KEYS = ['Title', 'Text', 'Number'];
 
 (async () => {
   // Query

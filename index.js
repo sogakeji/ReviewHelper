@@ -19,7 +19,7 @@ const QUERY_KEYS = ['Title', 'Text', 'Number'];
   // set notion API integration auth header
   let headers = {
     Authorization: `Bearer ${TOKEN}`,
-    "Notion-Version": "2022-12-24",
+    "Notion-Version": "2022-06-28",
     "Content-Type": "application/json"
   };
 

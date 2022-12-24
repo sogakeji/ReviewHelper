@@ -24,7 +24,7 @@ const QUERY_KEYS = ['Title', 'Text', 'Number'];
   };
 
   let sorts = [{
-    "property": "Created",
+    "property": "Text",
     "direction": "descending"
   }]
 
